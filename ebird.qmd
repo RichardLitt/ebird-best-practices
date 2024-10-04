@@ -242,7 +242,7 @@ observations <- observations |>
          month(observation_date) == 6)
 ```
 
-The data we requested for Georgia using the Custom Download form will include checklists falling in the ocean off the coast of Georgia. Although these oceanic checklists are typically rare, it's usually best to remove them when modeling a terrestrial species like Wood Thrush. We'll using a boundary polygon for Georgia in the `data/gis-data.gpkg` file, buffered by 1 km, to filter our checklist data. A similar approach can be used if you're interested in a custom region, for example, a national park for which you may have a shapefile defining the boundary.
+The data we requested for Georgia using the Custom Download form will include checklists falling in the ocean off the coast of Georgia. Although these oceanic checklists are typically rare, it's usually best to remove them when modeling a terrestrial species like Wood Thrush. We'll be using a boundary polygon for Georgia in the `data/gis-data.gpkg` file, buffered by 1 km, to filter our checklist data. A similar approach can be used if you're interested in a custom region, for example, a national park for which you may have a shapefile defining the boundary.
 
 ```{r}
 #| label: ebird-filter-region
