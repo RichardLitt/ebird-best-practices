@@ -188,7 +188,7 @@ checklists_unique |>
 
 eBird observations can be made at levels below species (e.g. subspecies) or above species (e.g. a bird that was identified as a duck, but the species could not be determined); however, for most uses we'll want observations at the species level. This is especially true if we want to produce detection/non-detection data from complete checklists because "complete" only applies at the species level.
 
-In the example dataset used for this workshop, these taxonomic issues don't apply. We have specifically requested Wood Thrush observations, so we haven't received any observations for taxa above species, and Wood Thrush only no subspecies reportable in eBird. However, in many other situations, these taxonomic issues can be important. For example, [this checklist](https://ebird.org/checklist/S100099262) has 10 Yellow-rumped Warblers, 5 each of two Yellow-rumped Warbler subspecies, and one hybrid between the two subspecies.
+In the example dataset used for this workshop, these taxonomic issues don't apply. We have specifically requested Wood Thrush observations, so we haven't received any observations for taxa above species, and Wood Thrush is monotypic and has no subspecies reportable in eBird. However, in many other situations, these taxonomic issues can be important. For example, [this checklist](https://ebird.org/checklist/S100099262) has 10 Yellow-rumped Warblers, 5 each of two Yellow-rumped Warbler subspecies, and one hybrid between the two subspecies.
 
 The function [`auk_rollup()`](https://cornelllabofornithology.github.io/auk/reference/auk_rollup.html) drops all observations not identifiable to a species and "rolls up" all observations reported below species to the species level.
 
