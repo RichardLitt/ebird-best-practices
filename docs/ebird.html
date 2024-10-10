@@ -894,7 +894,7 @@ Solution
 </section>
 <section id="sec-ebird-explore" class="level2" data-number="2.9">
 <h2 data-number="2.9" class="anchored" data-anchor-id="sec-ebird-explore"><span class="header-section-number">2.9</span> Exploratory analysis and visualization</h2>
-<p>Before proceeding to training species distribution models with these data, it’s worth exploring the dataset to see what we’re working with. Let’s start by making a simple map of the observations. This map uses GIS data available for <a href="https://github.com/ebird/ebird-best-practices/raw/master/data-raw/ebird-best-practices-data.zip">download in the data package</a>. Unzip this data package and place the contents in your RStudio project folder.</p>
+<p>Before proceeding to training species distribution models with these data, it’s worth exploring the dataset to see what we’re working with. Let’s start by making a simple map of the observations. This map uses GIS data available for <a href="https://github.com/ebird/ebird-best-practices/raw/refs/heads/main/data-raw/ebird-best-practices-data.zip">download in the data package</a>. Unzip this data package and place the contents in your RStudio project folder.</p>
 <div class="cell" data-layout-align="center" data-fig.asp="1.15">
 <div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load gis data</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>ne_land <span class="ot">&lt;-</span> <span class="fu">read_sf</span>(<span class="st">"data/gis-data.gpkg"</span>, <span class="st">"ne_land"</span>) <span class="sc">|&gt;</span> </span>

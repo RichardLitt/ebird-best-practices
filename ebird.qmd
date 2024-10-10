@@ -531,7 +531,7 @@ If you'd like to ensure you're using exactly the same data as was used to genera
 
 ## Exploratory analysis and visualization {#sec-ebird-explore}
 
-Before proceeding to training species distribution models with these data, it's worth exploring the dataset to see what we're working with. Let's start by making a simple map of the observations. This map uses GIS data available for [download in the data package](https://github.com/ebird/ebird-best-practices/raw/master/data-raw/ebird-best-practices-data.zip). Unzip this data package and place the contents in your RStudio project folder.
+Before proceeding to training species distribution models with these data, it's worth exploring the dataset to see what we're working with. Let's start by making a simple map of the observations. This map uses GIS data available for [download in the data package](https://github.com/ebird/ebird-best-practices/raw/refs/heads/main/data-raw/ebird-best-practices-data.zip). Unzip this data package and place the contents in your RStudio project folder.
 
 ```{r}
 #| label: ebird-explore-map
