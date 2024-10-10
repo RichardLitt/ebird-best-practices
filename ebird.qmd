@@ -271,7 +271,7 @@ observations <- semi_join(observations, in_region, by = "checklist_id")
 **It's absolutely critical that we filter the observation and checklist data in exactly the same way** to produce exactly the same population of checklists. Otherwise, the zero-filling we do in the next section will fail.
 :::
 
-Finally, there are rare situations in which some observers in a group of shared checklists quite drastically change there checklists, for example, changing the location or switching their checklist from complete to incomplete. In these cases, it's possible to end up with a mismatch between the checklists in the observation dataset and the checklist dataset. We can resolve this very rare issue by removing any checklists from the observation dataset not appearing in the checklist dataset.
+Finally, there are rare situations in which some observers in a group of shared checklists quite drastically change their checklists, for example, changing the location or switching their checklist from complete to incomplete. In these cases, it's possible to end up with a mismatch between the checklists in the observation dataset and the checklist dataset. We can resolve this very rare issue by removing any checklists from the observation dataset not appearing in the checklist dataset.
 
 ```{r}
 #| label: ebird-filter-bug
